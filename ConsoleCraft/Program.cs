@@ -55,7 +55,7 @@ namespace ConsoleCraft
             Options opt = JsonSerializer.Deserialize<Options>(File.ReadAllText("options.conf"));
 
             //set up the dirt console
-            ConsoleSettings.screenAutoSize = true;
+            ConsoleSettings.screenAutoSize = opt.windowAutoSize;
             ConsoleSettings.renderDistance = 0.01f;
             ConsoleSettings.screenMode = ConsoleSettings.screenModes.graySpeed;
             ConsoleSettings.backgroundColor = new Vector(135, 206, 235);
