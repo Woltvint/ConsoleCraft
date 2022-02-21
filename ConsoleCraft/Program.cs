@@ -12,16 +12,6 @@ using SimplexNoise;
 using DIRT;
 using DIRT.Types;
 
-
-/*
- 
- add shadow intensity to DIRT as a setting
-make trees
-make video
-.. maybe add a mob that wanders around .. why not :D .. i could even use a model
- 
- */
-
 namespace ConsoleCraft
 {
     class Program
